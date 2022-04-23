@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400;0,500;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+body{
+    background-image: url("/imagens/background.jpg");
+    background-size: cover;
+    
+}
+
+.button{
+
+
+    position:absolute; 
+    top:60%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+    
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    
+}
+
+.centralizar{
+    margin-left: 550px;
+    margin-top: 60px;
+    
+    
+}
+
+p{
+    text-align:center;
+    margin: 2%
+
+
+}
+
+.imagem{
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+.texto{
+    text-align: center;
+}
+
+.botao{
+    position:absolute; 
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+  
+.capa{
+    background-size: cover;
+    
+}
+
+.escolha{ 
+        font-size:15px;
+        font-family:Arial;
+        width:160px;
+        height:50px;
+        border-width:1px;
+        color:rgb(255, 255, 255);
+        border-color:#0970d7;
+        font-weight:bold;
+        border-top-left-radius:6px;
+        border-top-right-radius:6px;
+        border-bottom-left-radius:6px;
+        border-bottom-right-radius:6px;
+        box-shadow:inset 0px 1px 0px 0px #397cbb;
+        text-shadow:inset 0px 1px 0px #528ecc;
+        background:linear-gradient(#79bbff, #086acd);
+        text-align: center;
+        
+
+      }
+      
+      .escolha:hover {
+        background: linear-gradient(#1169c2, #79bbff);
+      }
+
+      .russellimg{
+          margin-left: 35%;
+          width: 5%;
+      }
+  
+      .botao2{
+        position:absolute; 
+        top:60%;
+        left:50%;
+        transform: translate(-50%, -50%);
+    }
+
+.botao3{
+    position:absolute; 
+    top:65%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
